@@ -1,3 +1,6 @@
 [submodule ".zsh_custom/themes/powerlevel10k"]
 	path = .zsh_custom/themes/powerlevel10k
 	url = https://github.com/romkatv/powerlevel10k.git
+[submodule ".zsh_custom/plugins/forgit"]
+	path = .zsh_custom/plugins/forgit
+	url = https://github.com/wfxr/forgit.git

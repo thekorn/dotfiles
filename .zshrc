@@ -77,7 +77,12 @@ ZSH_CUSTOM="${HOME}/.zsh_custom"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 # plugins=(git ssh-agent nvm tmux jira)
-plugins=(git ssh-agent nvm tmux jira)
+if [ "${IS_VSCODETERMINAL:-0}" = "1" ]
+then
+  plugins=(git ssh-agent nvm jira jenv forgit terraform)
+else
+  plugins=(git ssh-agent nvm tmux jira jenv forgit terraform)
+fi
 
 # tmux plugin - always start tmux when zshrc is loaded
 # but only once
@@ -91,11 +96,13 @@ hash -d "bitbucket"=$HOME/devel/bitbucket.org
 hash -d "edelight"=$HOME/devel/github.com/edelight
 hash -d "thekorn"=$HOME/devel/github.com/thekorn
 hash -d "burdastudios"=$HOME/devel/bitbucket.org/burdastudios
+hash -d "bfops"=$HOME/devel/gitlab.bfops.io
 
 # ssh-agent plugin
 zstyle :omz:plugins:ssh-agent lifetime 4h
 zstyle :omz:plugins:ssh-agent agent-forwarding on
-zstyle :omz:plugins:ssh-agent identities keys/id_rsa keys/id_rsa.bitbucket.burdastudios keys/OPS.tracdelight.pem
+zstyle :omz:plugins:ssh-agent identities keys/id_rsa keys/id_rsa.bitbucket.burdastudios keys/OPS.tracdelight.pem keys/id_ed25519.gitlab.burdaforward
+
 
 source $ZSH/oh-my-zsh.sh
 
@@ -111,6 +118,9 @@ export JIRA_NAME=markus.korn
 
 # dotfiles management
 alias dotfiles="git --git-dir=${HOME}/.dotfiles/ --work-tree=${HOME}"
+
+# vs code
+alias ca="code -a"
 
 # wttr.in
 # https://github.com/chubin/wttr.in
