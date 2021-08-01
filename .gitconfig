@@ -1,0 +1,68 @@
+[user]
+	name = Markus Korn
+	email = markus.korn@gmail.com
+[credential]
+	helper = store
+[core]
+	editor = nano
+	pager = diff-so-fancy | less --tabs=4 -RFX
+
+[push]
+	default = current
+	followTags = true
+[alias]
+	co = checkout
+	cm = commit
+	st = status
+	br = branch
+	pu = push -u
+	type = cat-file -t
+	dump = cat-file -p
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	diffc = diff --cached
+	permission-reset = !git diff -p -R --no-color | grep -E \"^(diff|(old|new) mode)\" --color=never | git apply
+[filter "lfs"]
+	smudge = git-lfs smudge %f
+	required = true
+	clean = git-lfs clean %f
+[color]
+	ui = true
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+[color "diff"]
+	meta = yellow
+	frag = magenta bold
+	commit = yellow bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+[diff-so-fancy]
+	useUnicodeRuler = false
+	markEmptyLines = false
+	changeHunkIndicators = true
+[diff "sopsdiffer"]
+	textconv = sops -d
+
+[includeIf "gitdir:~/.dotfiles"]
+	path = ~/.gitconfig.github
+
+[includeIf "gitdir:**/github.com/**"]
+	path = ~/.gitconfig.github
+
+[includeIf "gitdir:**/bitbucket.org/burdastudios/**"]
+	path = ~/.gitconfig.burdastudios
+
+[includeIf "gitdir:**/bitbucket.org/thekorn/**"]
+	path = ~/.gitconfig.bitbucket
+
+[includeIf "gitdir:**/github.com/edelight/**"]
+	path = ~/.gitconfig.edelight
+
+[includeIf "gitdir:**/git.pansoft.de/**"]
+	path = ~/.gitconfig.pansoft
+
+[diff]
+	submodule = log
