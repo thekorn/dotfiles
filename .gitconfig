@@ -21,10 +21,12 @@
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	diffc = diff --cached
 	permission-reset = !git diff -p -R --no-color | grep -E \"^(diff|(old|new) mode)\" --color=never | git apply
+	patch = !git --no-pager diff --no-color
 [filter "lfs"]
-	smudge = git-lfs smudge %f
+	smudge = git-lfs smudge -- %f
 	required = true
-	clean = git-lfs clean %f
+	clean = git-lfs clean -- %f
+	process = git-lfs filter-process
 [color]
 	ui = true
 [color "diff-highlight"]
@@ -64,5 +66,13 @@
 [includeIf "gitdir:**/git.pansoft.de/**"]
 	path = ~/.gitconfig.pansoft
 
+[includeIf "gitdir:**/gitlab.bfops.io/**"]
+	path = ~/.gitconfig.burdaforward
+
+[includeIf "gitdir:**/git.cxo.name/**"]
+	path = ~/.gitconfig.burdaforward.bitbucket
+
 [diff]
 	submodule = log
+[pull]
+	rebase = false

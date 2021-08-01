@@ -1,0 +1,6 @@
+[user]
+	name = Markus Korn
+	email = markus.korn@burda.com
+
+[core]
+    sshCommand = ssh -i ~/.ssh/keys/id_ed25519.gitlab.burdaforward
