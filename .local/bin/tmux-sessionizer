@@ -9,7 +9,7 @@ fi
 
 get_session_name() {
     local sessionname=`basename $1 | tr . _`
-    if [ ${#sessionname} -ge 5 ]; then
+    if [ ${#sessionname} -ge 30 ]; then
         sessionname=${sessionname//tracdelight-/td-}
         sessionname=${sessionname//bunte-/b-}
     fi
