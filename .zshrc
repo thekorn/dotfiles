@@ -79,9 +79,9 @@ ZSH_CUSTOM="${HOME}/.zsh_custom"
 # plugins=(git ssh-agent nvm tmux jira)
 if [ "${IS_VSCODETERMINAL:-0}" = "1" ]
 then
-  plugins=(git ssh-agent nvm jira jenv forgit terraform)
+  plugins=(git ssh-agent nvm jira forgit)
 else
-  plugins=(git ssh-agent nvm tmux jira jenv forgit terraform)
+  plugins=(git ssh-agent nvm tmux jira forgit aws)
 fi
 
 # tmux plugin - always start tmux when zshrc is loaded
@@ -155,6 +155,10 @@ alias bunte-pm2="npm run pm2 --prefix ~burdastudios/bunte-dev"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias zshconfig="code ~/.zshrc"
+alias tmuxconfig="code ~/.tmux.conf"
+
+alias tms="tmux-sessionizer"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

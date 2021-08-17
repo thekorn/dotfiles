@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+if [[ $# -eq 1 ]]; then
+    selected=$1
+else
+    items=`find ~/devel/ -maxdepth 3 -mindepth 1 -type d`
+    selected=`echo "$items" | fzf`
+fi
+
+get_session_name() {
+    local sessionname=`basename $1 | tr . _`
+    if [ ${#sessionname} -ge 5 ]; then
+        sessionname=${sessionname//tracdelight-/td-}
+        sessionname=${sessionname//bunte-/b-}
+    fi
+    echo "$sessionname"
+}
+
+tmux_session_name=$(get_session_name $selected)
+
+tmux switch-client -t $tmux_session_name
+if [[ $? -eq 0 ]]; then
+    exit 0
+fi
+
+tmux new-session -c $selected -d -s $tmux_session_name && tmux switch-client -t $tmux_session_name || tmux new -c $selected -A -s $tmux_session_name
