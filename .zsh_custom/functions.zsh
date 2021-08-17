@@ -13,3 +13,11 @@ aha() {
 wttr() {
     curl wttr.in/"${1:-}";
 }
+
+dotfiles_log() {
+    GIT_DIR=${HOME}/.dotfiles/ GIT_WORK_TREE=${HOME} forgit::log
+}
+
+dotfiles_diff() {
+    GIT_DIR=${HOME}/.dotfiles/ GIT_WORK_TREE=${HOME} forgit::diff
+}

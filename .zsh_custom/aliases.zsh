@@ -15,6 +15,8 @@ alias npm-check-updates="npx npm-check-updates -u"
 
 # dotfiles management
 alias dotfiles="git --git-dir=${HOME}/.dotfiles/ --work-tree=${HOME}"
+alias dfl=dotfiles_log
+alias dfd=dotfiles_diff
 
 # vs code
 alias ca="code -a"
