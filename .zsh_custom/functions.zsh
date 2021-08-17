@@ -14,10 +14,18 @@ wttr() {
     curl wttr.in/"${1:-}";
 }
 
-dotfiles_log() {
-    GIT_DIR=${HOME}/.dotfiles/ GIT_WORK_TREE=${HOME} forgit::log
-}
-
-dotfiles_diff() {
-    GIT_DIR=${HOME}/.dotfiles/ GIT_WORK_TREE=${HOME} forgit::diff
+dotfiles() {
+  local gitdir=${HOME}/.dotfiles/
+  local workdir=${HOME}
+  case $1 in
+    log)
+      GIT_DIR=${gitdir} GIT_WORK_TREE=${workdir} forgit::log
+      ;;
+    diff)
+      GIT_DIR=${gitdir} GIT_WORK_TREE=${workdir} forgit::diff
+      ;;
+    *)
+      GIT_DIR=${gitdir} GIT_WORK_TREE=${workdir} git $@
+      ;;
+  esac
 }
