@@ -159,6 +159,7 @@ alias zshconfig="code ~/.zshrc"
 alias tmuxconfig="code ~/.tmux.conf"
 
 alias tms="tmux-sessionizer"
+alias wo-bunte="wo bunte"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
