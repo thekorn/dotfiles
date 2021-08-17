@@ -115,23 +115,6 @@ export EDITOR="nano"
 export JIRA_URL=https://burda-studios.atlassian.net
 export JIRA_NAME=markus.korn
 
-
-# dotfiles management
-alias dotfiles="git --git-dir=${HOME}/.dotfiles/ --work-tree=${HOME}"
-
-# vs code
-alias ca="code -a"
-
-# wttr.in
-# https://github.com/chubin/wttr.in
-wttr() {
-    curl wttr.in/"${1:-}";
-}
-
-# bunte-dev
-alias bunte="npm run cli --prefix ~burdastudios/bunte-dev"
-alias bunte-pm2="npm run pm2 --prefix ~burdastudios/bunte-dev"
-
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -155,11 +138,6 @@ alias bunte-pm2="npm run pm2 --prefix ~burdastudios/bunte-dev"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias zshconfig="code ~/.zshrc"
-alias tmuxconfig="code ~/.tmux.conf"
-
-alias tms="tmux-sessionizer"
-alias wo-bunte="wo bunte"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
