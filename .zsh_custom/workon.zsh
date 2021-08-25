@@ -10,6 +10,10 @@ wo() {
             tmux-sessionizer ${HOME}/devel/bitbucket.org/burdastudios/
             code ${HOME}/.vs-code-workspaces/bunte.code-workspace
             ;;
+        bf)
+            tmux-sessionizer ${HOME}/devel/github.com/thekorn/bf-content-platform/
+            code ${HOME}/devel/github.com/thekorn/bf-content-platform/
+            ;;
         dotfiles)
             local gitdir=${HOME}/.dotfiles/
             local workdir=${HOME}
