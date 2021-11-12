@@ -5,6 +5,11 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+# initialize zsh autocomplete (disabled for now)
+#if [[ -r "${HOME}/.zsh_custom/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh" ]]; then
+#  source "${HOME}/.zsh_custom/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh"
+#fi
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=${HOME}/.local/bin/:${PATH}
@@ -79,9 +84,9 @@ ZSH_CUSTOM="${HOME}/.zsh_custom"
 # plugins=(git ssh-agent nvm tmux jira)
 if [ "${IS_VSCODETERMINAL:-0}" = "1" ]
 then
-  plugins=(git ssh-agent nvm jira forgit)
+  plugins=(git ssh-agent nvm jira forgit z)
 else
-  plugins=(git ssh-agent nvm tmux jira forgit aws)
+  plugins=(git ssh-agent nvm tmux jira forgit aws z)
 fi
 
 # tmux plugin - always start tmux when zshrc is loaded

@@ -4,3 +4,6 @@
 [submodule ".zsh_custom/plugins/forgit"]
 	path = .zsh_custom/plugins/forgit
 	url = https://github.com/wfxr/forgit.git
+[submodule ".zsh_custom/plugins/zsh-autocomplete"]
+	path = .zsh_custom/plugins/zsh-autocomplete
+	url = https://github.com/marlonrichert/zsh-autocomplete.git
