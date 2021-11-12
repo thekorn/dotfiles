@@ -23,3 +23,8 @@ alias dfd="dotfiles diff"
 
 # vs code
 alias ca="code -a"
+
+# exa vs ls
+alias ls="exa"
+alias ll="exa --long --header --git --icons"
+alias tree="ll --tree --level=4 -a -I=.git --git-ignore"
