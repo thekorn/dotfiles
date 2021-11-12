@@ -8,6 +8,7 @@ alias wo-bunte="wo bunte"
 # config
 alias zshconfig="code ~/.zshrc"
 alias tmuxconfig="code ~/.tmux.conf"
+alias szsh="source ~/.zshrc"
 
 # helper
 alias tms="tmux-sessionizer"
@@ -20,6 +21,7 @@ alias npm-check-updates="npx npm-check-updates -u"
 
 alias dfl="dotfiles log"
 alias dfd="dotfiles diff"
+alias lazydf="lazygit --work-tree=${HOME} --git-dir=${HOME}/.dotfiles/"
 
 # vs code
 alias ca="code -a"

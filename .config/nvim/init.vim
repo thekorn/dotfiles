@@ -89,6 +89,7 @@ Plug 'David-Kunz/cmp-npm'
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
+Plug 'nvim-telescope/telescope-project.nvim'
 Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'sudormrfbin/cheatsheet.nvim'
 Plug 'kyazdani42/nvim-tree.lua'
@@ -161,11 +162,13 @@ Plug 'arcticicestudio/nord-vim', { 'as': 'nord' }
 " Plug 'projekt0n/github-nvim-theme'
 
 Plug 'elijahmanor/export-to-vscode.nvim'
+Plug 'kevinoid/vim-jsonc'
 
 call plug#end()
 " }}}
 
 nnoremap <silent> <leader>code <cmd>lua require('export-to-vscode').launch()<cr>
+nnoremap <silent> <leader>fp :Telescope project<CR>
 lua << EOF
 --vim.api.nvim_set_keymap(
 --  'n',
@@ -179,8 +182,8 @@ EOF
 if (has("termguicolors"))
   set termguicolors " enable true colors support
 endif
-let g:dracula_colorterm = 0
-let g:dracula_italic = 1
+"let g:dracula_colorterm = 0
+"let g:dracula_italic = 1
 "colorscheme dracula
 colorscheme nord
 " set background=dark " light or dark
@@ -472,6 +475,7 @@ require('telescope').setup {
   }
 }
 require('telescope').load_extension('fzf')
+require('telescope').load_extension('project')
 EOF
 nnoremap <leader>ff :lua require'telescope.builtin'.find_files{ hidden = true }<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
@@ -595,7 +599,7 @@ lua << EOF
 require('plenary.reload').reload_module('lualine', true)
 require('lualine').setup({
   options = {
-    theme = 'dracula',
+    theme = 'nord',
     disabled_types = { 'NvimTree' }
   },
   sections = {
@@ -738,3 +742,5 @@ nnoremap ,test :-1read $HOME/.config/snippets/test.snip<CR>V2j=f";i
 
 " https://vi.stackexchange.com/questions/3814/is-there-a-best-practice-to-fold-a-vimrc-file
 " vim: filetype=vim foldmethod=marker foldlevel=0 foldcolumn=3
+
+autocmd BufNewFile,BufRead rush.json setlocal filetype=jsonc
