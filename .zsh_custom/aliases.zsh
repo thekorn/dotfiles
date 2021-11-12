@@ -28,3 +28,7 @@ alias ca="code -a"
 alias ls="exa"
 alias ll="exa --long --header --git --icons"
 alias tree="ll --tree --level=4 -a -I=.git --git-ignore"
+
+# neovim
+alias nvim="nvim.appimage"
+alias vim="nvim"
