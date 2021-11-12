@@ -20,7 +20,7 @@ $ alias dotfiles="git --git-dir=${HOME}/.dotfiles.git/ --work-tree=${HOME}"
 $ dotfiles config --local status.showUntrackedFiles no
 $ dotfiles pull
 $ dotfiles submodule init
-$ dotfiles submodule update
+$ dotfiles submodule update --remote
 $ source .zshrc
 ```
 
