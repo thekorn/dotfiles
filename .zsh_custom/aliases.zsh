@@ -34,3 +34,6 @@ alias tree="ll --tree --level=4 -a -I=.git --git-ignore"
 # neovim
 alias nvim="nvim.appimage"
 alias vim="nvim"
+
+# local rush for testing
+alias testrush="node ~/devel/github.com/thekorn/rushstack/apps/rush-lib/lib/start.js"
