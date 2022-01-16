@@ -37,3 +37,10 @@ alias vim="nvim"
 
 # local rush for testing
 alias testrush="node ~/devel/github.com/thekorn/rushstack/apps/rush-lib/lib/start.js"
+
+
+# Goes up the tree to the git root dir
+alias g-='cd $(git rev-parse --show-toplevel || echo ".")'
+
+# lazygit
+alias lg="lazygit"
