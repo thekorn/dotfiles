@@ -7,3 +7,5 @@ export MONGOMS_DOWNLOAD_URL=https://fastdl.mongodb.org/linux/mongodb-linux-x86_6
 export MONGOMS_PREFER_GLOBAL_PATH=1
 
 export isLinux=true
+
+export PATH=$PATH:/usr/local/go/bin

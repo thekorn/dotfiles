@@ -84,9 +84,9 @@ ZSH_CUSTOM="${HOME}/.zsh_custom"
 # plugins=(git ssh-agent nvm tmux jira)
 if [ "${IS_VSCODETERMINAL:-0}" = "1" ]
 then
-  plugins=(git ssh-agent nvm jira forgit z)
+  plugins=(git ssh-agent nvm jira forgit z golang)
 else
-  plugins=(git ssh-agent nvm tmux jira forgit aws z)
+  plugins=(git ssh-agent nvm tmux jira forgit aws z golang)
 fi
 
 # tmux plugin - always start tmux when zshrc is loaded
