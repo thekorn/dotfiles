@@ -8,4 +8,6 @@ export MONGOMS_PREFER_GLOBAL_PATH=1
 
 export isLinux=true
 
+# golang
 export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:$HOME/go/bin
