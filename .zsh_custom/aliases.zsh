@@ -36,7 +36,8 @@ alias nvim="nvim.appimage"
 alias vim="nvim"
 
 # local rush for testing
-alias testrush="node ~/devel/github.com/thekorn/rushstack/apps/rush-lib/lib/start.js"
+alias testrush="node ~/devel/github.com/thekorn/rushstack/libraries/rush-lib/lib/start.js"
+alias testrushx="node ~/devel/github.com/thekorn/rushstack/libraries/rush-lib/lib/startx.js"
 
 
 # Goes up the tree to the git root dir
