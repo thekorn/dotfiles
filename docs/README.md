@@ -15,10 +15,11 @@ these files must be loaded from elsewhere
 Run
 
 ```
-$ git clone --bare git@github.com:thekorn/dotfiles.git ${HOME}/.dotfiles.git
-$ alias dotfiles="git --git-dir=${HOME}/.dotfiles.git/ --work-tree=${HOME}"
+$ git clone --bare git@github.com:thekorn/dotfiles.linux.v2.git ${HOME}/.dotfiles
+$ alias dotfiles="git --git-dir=${HOME}/.dotfiles/ --work-tree=${HOME}"
 $ dotfiles config --local status.showUntrackedFiles no
 $ dotfiles pull
+$ dotfiles checkout
 $ dotfiles submodule init
 $ dotfiles submodule update --remote
 $ source .zshrc
