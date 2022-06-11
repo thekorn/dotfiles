@@ -5,6 +5,7 @@
  * tmux
  * fzf
  * awscli
+ * alacritty
  * [docker](https://docs.docker.com/desktop/linux/install/)
  * [vscode](https://code.visualstudio.com/download)
  * [chrome](https://www.google.com/chrome/)
