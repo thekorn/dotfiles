@@ -7,3 +7,6 @@
 [submodule ".zsh_custom/plugins/zsh-autocomplete"]
 	path = .zsh_custom/plugins/zsh-autocomplete
 	url = https://github.com/marlonrichert/zsh-autocomplete.git
+[submodule ".tmux/plugins/tpm"]
+	path = .tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm
