@@ -20,7 +20,7 @@
  * [chrome](https://www.google.com/chrome/)
  * [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation)
  * [delta](https://github.com/dandavison/delta/releases)
- * [rust](https://www.rust-lang.org/tools/install) (`rushup  default nighly` to get rust `>=1.63.0` required by exa )
+ * [rust](https://www.rust-lang.org/tools/install) (`rushup default nighly` to get rust `>=1.63.0` required by exa )
  * [exa](https://github.com/ogham/exa#cargo) (via cargo, to enable git integration)
  * [bat](https://github.com/sharkdp/bat#from-source)
  * [httpie](https://httpie.io/docs/cli/single-binary-executables)
@@ -69,3 +69,7 @@ $ source .zshrc
 
  * [Atlassian developer blog](https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/)
  * [Harfang's Perch blog](https://harfangk.github.io/2016/09/18/manage-dotfiles-with-a-git-bare-repository.html)
+
+## issues
+
+ * fnm does not allow system as default [bug](https://github.com/Schniz/fnm/issues/681) - thats why systemwide node should not be installed
