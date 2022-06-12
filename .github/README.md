@@ -14,7 +14,6 @@
  * [vscode](https://code.visualstudio.com/download)
  * [chrome](https://www.google.com/chrome/)
  * [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation)
- * [nvm](https://github.com/nvm-sh/nvm#install--update-script)
  * [delta](https://github.com/dandavison/delta/releases)
  * [rust](https://www.rust-lang.org/tools/install) (`rushup  default nighly` to get rust `>=1.63.0` required by exa )
  * [exa](https://github.com/ogham/exa#cargo) (via cargo, to enable git integration)

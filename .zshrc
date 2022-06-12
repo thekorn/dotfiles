@@ -108,8 +108,6 @@ zstyle :omz:plugins:ssh-agent lifetime 4h
 zstyle :omz:plugins:ssh-agent agent-forwarding on
 zstyle :omz:plugins:ssh-agent identities keys/id_rsa keys/id_rsa.bitbucket.burdastudios keys/OPS.tracdelight.pem keys/id_ed25519.gitlab.burdaforward
 
-NVM_AUTOLOAD="1"
-
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
