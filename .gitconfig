@@ -67,28 +67,28 @@
 	textconv = sops -d
 
 [includeIf "gitdir:~/.dotfiles"]
-	path = ~/.gitconfig.github
+	path = ~/.config/gitconfig/github
 
 [includeIf "gitdir:**/github.com/**"]
-	path = ~/.gitconfig.github
+	path = ~/.config/gitconfig/github
 
 [includeIf "gitdir:**/bitbucket.org/burdastudios/**"]
-	path = ~/.gitconfig.burdastudios
+	path = ~/.config/gitconfig/burdastudios
 
 [includeIf "gitdir:**/bitbucket.org/thekorn/**"]
-	path = ~/.gitconfig.bitbucket
+	path = ~/.config/gitconfig/bitbucket
 
 [includeIf "gitdir:**/github.com/edelight/**"]
-	path = ~/.gitconfig.edelight
+	path = ~/.config/gitconfig/github
 
 [includeIf "gitdir:**/git.pansoft.de/**"]
-	path = ~/.gitconfig.pansoft
+	path = ~/.config/gitconfig/pansoft
 
 [includeIf "gitdir:**/gitlab.bfops.io/**"]
-	path = ~/.gitconfig.burdaforward
+	path = ~/.config/gitconfig/burdaforward
 
 [includeIf "gitdir:**/git.cxo.name/**"]
-	path = ~/.gitconfig.burdaforward.bitbucket
+	path = ~/.config/gitconfig/burdaforward.bitbucket
 
 [diff]
 	submodule = log
