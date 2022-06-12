@@ -49,10 +49,10 @@
 	path = ~/.config/delta/themes.gitconfig
 
 [delta]
-    features = calochortus-lyallii
+    features = chameleon
 
 [delta "interactive"]
-    keep-plus-minus-markers = false
+    keep-plus-minus-markers = true
 
 [delta "decorations"]
     commit-decoration-style = blue ol

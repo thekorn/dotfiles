@@ -8,6 +8,7 @@
  * alacritty
  * Vinagre
  * silversearcher-ag
+ * jq
  * [neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim#ubuntu) (via unstable ppa as 0.7+ is required)
  * [LunarVim](https://github.com/LunarVim/LunarVim#linux)
  * [fnm](https://github.com/Schniz/fnm#using-cargo-linuxmacoswindows)
@@ -20,6 +21,7 @@
  * [rust](https://www.rust-lang.org/tools/install) (`rushup  default nighly` to get rust `>=1.63.0` required by exa )
  * [exa](https://github.com/ogham/exa#cargo) (via cargo, to enable git integration)
  * [bat](https://github.com/sharkdp/bat#from-source)
+ * [httpie](https://httpie.io/docs/cli/single-binary-executables)
 
 ## install fonts
 
