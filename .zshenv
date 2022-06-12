@@ -16,5 +16,9 @@ export PATH=$PATH:$HOME/go/bin
 export PNPM_HOME="${HOME}/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 
+# If you come from bash you might have to change your $PATH.
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=${HOME}/.local/bin/:${PATH}
+
 # fnm
-eval "$(fnm env --use-on-cd --version-file-strategy recursive)"
+eval "$(fnm env --fnm-dir ${HOME}/.fnm --use-on-cd --version-file-strategy recursive)"
