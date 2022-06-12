@@ -25,6 +25,7 @@
  * [bat](https://github.com/sharkdp/bat#from-source)
  * [httpie](https://httpie.io/docs/cli/single-binary-executables)
  * [mkcert](https://github.com/FiloSottile/mkcert#linux)
+ * [mongosh](https://www.mongodb.com/docs/mongodb-shell/install/)
 
 ### Linux
 
