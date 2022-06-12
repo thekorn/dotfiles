@@ -1,9 +1,7 @@
 
 
-# bunte-dev
-alias bunte="npm run cli --prefix ~burdastudios/bunte-dev"
-alias bunte-pm2="npm run pm2 --prefix ~burdastudios/bunte-dev"
-alias wo-bunte="wo bunte"
+# bunte
+alias bunte="wo bunte"
 
 # config
 alias zshconfig="code ~/.zshrc"
@@ -31,9 +29,6 @@ alias ls="exa"
 alias ll="exa --long --header --git --icons"
 alias tree="ll --tree --level=4 -a -I=.git --git-ignore"
 
-# neovim
-alias nvim="nvim.appimage"
-alias vim="nvim"
 
 # local rush for testing
 alias testrush="node ~/devel/github.com/thekorn/rushstack/libraries/rush-lib/lib/start.js"
