@@ -42,7 +42,7 @@ these files must be loaded from elsewhere
 Run
 
 ```
-$ git clone --bare git@github.com:thekorn/dotfiles.linux.v2.git ${HOME}/.dotfiles
+$ git clone --bare git@github.com:thekorn/dotfiles.git ${HOME}/.dotfiles
 $ alias dotfiles="git --git-dir=${HOME}/.dotfiles/ --work-tree=${HOME}"
 $ dotfiles config --local status.showUntrackedFiles no
 $ dotfiles pull
