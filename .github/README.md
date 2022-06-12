@@ -8,6 +8,8 @@
  * alacritty
  * Vinagre
  * silversearcher-ag
+ * [neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim#ubuntu) (via unstable ppa as 0.7+ is required)
+ * [LunarVim](https://github.com/LunarVim/LunarVim#linux)
  * [fnm](https://github.com/Schniz/fnm#using-cargo-linuxmacoswindows)
  * [lazygit](https://github.com/jesseduffield/lazygit/releases)
  * [docker](https://docs.docker.com/desktop/linux/install/)
