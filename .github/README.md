@@ -6,6 +6,10 @@
  * fzf
  * awscli
  * alacritty
+ * Vinagre
+ * silversearcher-ag
+ * [fnm](https://github.com/Schniz/fnm#using-cargo-linuxmacoswindows)
+ * [lazygit](https://github.com/jesseduffield/lazygit/releases)
  * [docker](https://docs.docker.com/desktop/linux/install/)
  * [vscode](https://code.visualstudio.com/download)
  * [chrome](https://www.google.com/chrome/)
