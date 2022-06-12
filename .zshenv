@@ -1,4 +1,4 @@
-#. "$HOME/.cargo/env"
+. "$HOME/.cargo/env"
 skip_global_compinit=1
 
 # bunte mongo memory server
