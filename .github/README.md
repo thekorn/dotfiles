@@ -11,6 +11,7 @@
  * silversearcher-ag
  * jq
  * htop
+ * pnpm
  * [neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim#ubuntu) (via unstable ppa as 0.7+ is required)
  * [LunarVim](https://github.com/LunarVim/LunarVim#linux)
  * [fnm](https://github.com/Schniz/fnm#using-cargo-linuxmacoswindows)
@@ -73,3 +74,4 @@ $ source .zshrc
 ## issues
 
  * fnm does not allow system as default [bug](https://github.com/Schniz/fnm/issues/681) - thats why systemwide node should not be installed
+ * on MacOS install pnpm globally with `curl -fsSL https://get.pnpm.io/install.sh | XDG_DATA_HOME=~/.local/share sh -` to get a unified setup
