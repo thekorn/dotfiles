@@ -17,6 +17,7 @@
  * [delta](https://github.com/dandavison/delta/releases)
  * [rust](https://www.rust-lang.org/tools/install) (`rushup  default nighly` to get rust `>=1.63.0` required by exa )
  * [exa](https://github.com/ogham/exa#cargo) (via cargo, to enable git integration)
+ * [bat](https://github.com/sharkdp/bat#from-source)
 
 ## install fonts
 
