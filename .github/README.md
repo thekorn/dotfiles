@@ -2,11 +2,12 @@
 
 ## installed apps
 
+### all systems
+
  * tmux
  * fzf
  * awscli
  * alacritty
- * Vinagre
  * silversearcher-ag
  * jq
  * htop
@@ -14,7 +15,7 @@
  * [LunarVim](https://github.com/LunarVim/LunarVim#linux)
  * [fnm](https://github.com/Schniz/fnm#using-cargo-linuxmacoswindows)
  * [lazygit](https://github.com/jesseduffield/lazygit/releases)
- * [docker](https://docs.docker.com/desktop/linux/install/)
+ * [docker-desktop](https://docs.docker.com/desktop/linux/install/)
  * [vscode](https://code.visualstudio.com/download)
  * [chrome](https://www.google.com/chrome/)
  * [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation)
@@ -25,10 +26,21 @@
  * [httpie](https://httpie.io/docs/cli/single-binary-executables)
  * [mkcert](https://github.com/FiloSottile/mkcert#linux)
 
-## install fonts
+### Linux
+
+ * Vinagre
+
+### mac
+
+ * homebrew
+ * magnet - "tiling" window manager for osx
+ * Xcode
+
+### windows
+
+## fonts
 
  * [MesloLGS NF](https://github.com/romkatv/powerlevel10k#manual-font-installation)
-
 
 ## Untracked files
 
