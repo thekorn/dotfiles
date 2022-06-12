@@ -1,4 +1,4 @@
-# dotfiles for the linux environment
+# dotfiles
 
 ## installed apps
 
