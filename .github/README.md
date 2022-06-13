@@ -73,5 +73,9 @@ $ source .zshrc
 
 ## issues
 
- * fnm does not allow system as default [bug](https://github.com/Schniz/fnm/issues/681) - thats why systemwide node should not be installed
+ * fnm does not allow system as default (see [bug](https://github.com/Schniz/fnm/issues/681)) - thats why systemwide node should not be installed
  * on MacOS install pnpm globally with `curl -fsSL https://get.pnpm.io/install.sh | XDG_DATA_HOME=~/.local/share sh -` to get a unified setup
+
+## knowledgebase
+
+ * some usefull git commands can be found [here](knowledgebase/git.md)
