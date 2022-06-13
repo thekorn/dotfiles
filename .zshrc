@@ -112,8 +112,9 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR="nano"
 
 # zsh jira plugin
-export JIRA_URL=https://burda-studios.atlassian.net
+export JIRA_URL=https://intranet.cxo.name/jira
 export JIRA_NAME=markus.korn
+export JIRA_DEFAULT_ACTION=dashboard
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
