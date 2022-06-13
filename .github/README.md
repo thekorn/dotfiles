@@ -79,3 +79,4 @@ $ source .zshrc
 ## knowledgebase
 
  * some usefull git commands can be found [here](knowledgebase/git.md)
+ * some usefull docker commands can be found [here](knowledgebase/docker.md)
