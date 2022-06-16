@@ -9,6 +9,7 @@
  * awscli
  * alacritty
  * silversearcher-ag
+ * teams
  * jq
  * htop
  * pnpm
