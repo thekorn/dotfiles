@@ -33,3 +33,7 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 # JAVA
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
 export PATH=$JAVA_HOME/bin:$PATH
+
+# gpkg
+# https://github.com/thekorn/gpkg
+export PATH=~/.gpkg/bin:$PATH

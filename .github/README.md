@@ -16,6 +16,7 @@
  * [neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim#ubuntu) (via unstable ppa as 0.7+ is required)
  * [LunarVim](https://github.com/LunarVim/LunarVim#linux)
  * [fnm](https://github.com/Schniz/fnm#using-cargo-linuxmacoswindows)
+ * [gpkg](https://github.com/Schniz/gpkg#installation)
  * [lazygit](https://github.com/jesseduffield/lazygit/releases)
  * [docker-desktop](https://docs.docker.com/desktop/linux/install/)
  * [vscode](https://code.visualstudio.com/download)
@@ -40,6 +41,11 @@
  * Xcode
 
 ### windows
+
+### optional - for nvim
+
+ * prettier (via gpkg)
+ * stylua
 
 ## fonts
 
