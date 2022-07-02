@@ -13,6 +13,6 @@
 [submodule ".zsh_custom/plugins/zsh-fzf-history-search"]
 	path = .zsh_custom/plugins/zsh-fzf-history-search
 	url = https://github.com/joshskidmore/zsh-fzf-history-search
-[submodule "/home/thekorn/.config/nvim"]
-	path = /home/thekorn/.config/nvim
+[submodule ".config/nvim"]
+	path = .config/nvim
 	url = git@github.com:thekorn/nvim-config.git
