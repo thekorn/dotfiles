@@ -29,6 +29,7 @@
  * [httpie](https://httpie.io/docs/cli/single-binary-executables)
  * [mkcert](https://github.com/FiloSottile/mkcert#linux)
  * [mongosh](https://www.mongodb.com/docs/mongodb-shell/install/)
+ * [deno](https://deno.land/manual/getting_started/installation)
 
 ### Linux
 
@@ -50,6 +51,7 @@
 ## fonts
 
  * [MesloLGS NF](https://github.com/romkatv/powerlevel10k#manual-font-installation)
+ * [Cascadia Code](https://github.com/microsoft/cascadia-code)
 
 ## Untracked files
 

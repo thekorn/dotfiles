@@ -37,3 +37,7 @@ export PATH=$JAVA_HOME/bin:$PATH
 # gpkg
 # https://github.com/thekorn/gpkg
 export PATH=~/.gpkg/bin:$PATH
+
+# deno
+export DENO_INSTALL="/home/thekorn/.deno"
+export PATH=$DENO_INSTALL/bin:$PATH
