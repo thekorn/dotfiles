@@ -1,5 +1,14 @@
 # dotfiles
 
+Welcome to the repository where I manage all my dotfiles and configurations :)
+I run the same configuration in three environments:
+
+ * linux (pop_os)
+ * MacOS
+ * Windows 11 (WSL2)
+
+When it comes to look & feel, my main color schema across all environments and applications is [Nord](https://www.nordtheme.com/)
+
 ## installed apps
 
 ### all systems
@@ -12,9 +21,8 @@
  * teams
  * jq
  * htop
- * pnpm
+ * pnpm (via gpkg)
  * [neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim#ubuntu) (via unstable ppa as 0.7+ is required)
- * [LunarVim](https://github.com/LunarVim/LunarVim#linux)
  * [fnm](https://github.com/Schniz/fnm#using-cargo-linuxmacoswindows)
  * [gpkg](https://github.com/Schniz/gpkg#installation)
  * [lazygit](https://github.com/jesseduffield/lazygit/releases)
@@ -30,6 +38,7 @@
  * [mkcert](https://github.com/FiloSottile/mkcert#linux)
  * [mongosh](https://www.mongodb.com/docs/mongodb-shell/install/)
  * [deno](https://deno.land/manual/getting_started/installation)
+ * [go](https://go.dev/doc/install)
 
 ### Linux
 
@@ -37,18 +46,21 @@
 
 ### mac
 
- * homebrew
+ * [homebrew](https://brew.sh/)
  * magnet - "tiling" window manager for osx
  * Xcode
 
-### windows
+### Windows
 
-### optional - for nvim
+ * enable WSL2 - running recent [ubuntu](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-11-with-gui-support#1-overview)
+ * [windows terminal](https://github.com/microsoft/terminal)
+
+### (Optional) - for nvim
 
  * prettier (via gpkg)
  * stylua
 
-## fonts
+## Fonts
 
  * [MesloLGS NF](https://github.com/romkatv/powerlevel10k#manual-font-installation)
  * [Cascadia Code](https://github.com/microsoft/cascadia-code)
@@ -80,12 +92,19 @@ $ source .zshrc
  * [Atlassian developer blog](https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/)
  * [Harfang's Perch blog](https://harfangk.github.io/2016/09/18/manage-dotfiles-with-a-git-bare-repository.html)
 
-## issues
+## Issues
 
  * fnm does not allow system as default (see [bug](https://github.com/Schniz/fnm/issues/681)) - thats why systemwide node should not be installed
  * on MacOS install pnpm globally with `curl -fsSL https://get.pnpm.io/install.sh | XDG_DATA_HOME=~/.local/share sh -` to get a unified setup
 
-## knowledgebase
+## Knowledgebase
 
  * some usefull git commands can be found [here](knowledgebase/git.md)
  * some usefull docker commands can be found [here](knowledgebase/docker.md)
+
+## Todos
+
+- [x] unification of all environments
+- [x] documentation of _almost_ all installed and used applications
+- [ ] find a way of how to automize the install and update process of all applications
+- [ ] move to firefox as main browser, with seperated profiles
