@@ -1,18 +1,24 @@
 [submodule ".zsh_custom/themes/powerlevel10k"]
 	path = .zsh_custom/themes/powerlevel10k
 	url = https://github.com/romkatv/powerlevel10k.git
+	branch = master
 [submodule ".zsh_custom/plugins/forgit"]
 	path = .zsh_custom/plugins/forgit
 	url = https://github.com/wfxr/forgit.git
+	branch = master
 [submodule ".zsh_custom/plugins/zsh-autocomplete"]
 	path = .zsh_custom/plugins/zsh-autocomplete
 	url = https://github.com/marlonrichert/zsh-autocomplete.git
+	branch = main
 [submodule ".tmux/plugins/tpm"]
 	path = .tmux/plugins/tpm
 	url = https://github.com/tmux-plugins/tpm
+	branch = master
 [submodule ".zsh_custom/plugins/zsh-fzf-history-search"]
 	path = .zsh_custom/plugins/zsh-fzf-history-search
 	url = https://github.com/joshskidmore/zsh-fzf-history-search
+	branch = master
 [submodule ".config/nvim"]
 	path = .config/nvim
 	url = git@github.com:thekorn/nvim-config.git
+	branch = master
