@@ -17,3 +17,19 @@ then run
 ```sh
 $ git branch -r --merged | grep -v master | grep -v main | sed 's/origin\///' | xargs -n 1 git push --delete origin
 ```
+
+## submodules
+
+### change the origin url of a submodule
+
+Taken from [this blogpost](https://www.damirscorner.com/blog/posts/20210423-ChangingUrlsOfGitSubmodules.html)
+
+ 1. Modify the URL value in the `.gitmodules` file. This file gets committed to Git.
+ 2. Force submodules to resynchronize with the modified file using the following command:
+    ```
+    $ git submodule sync
+    ```
+ 3. Update all modules from the now correct remote URL using the following command (because it is called recursively on all submodules, even nested ones):
+    ```
+    $ git submodule update --init --recursive --remote
+    ```
