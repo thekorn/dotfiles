@@ -40,3 +40,8 @@ alias g-='cd $(git rev-parse --show-toplevel || echo ".")'
 
 # lazygit
 alias lg="lazygit"
+
+## firefox
+alias ff="firefox --new-tab"
+alias ffs="firefox --search"
+alias ffp="firefox --private-window"
