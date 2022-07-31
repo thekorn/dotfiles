@@ -101,6 +101,7 @@ $ source .zshrc
 
  * some usefull git commands can be found [here](knowledgebase/git.md)
  * some usefull docker commands can be found [here](knowledgebase/docker.md)
+ * qmk instructions can be found [here](knowledgebase/qmk.md)
 
 ## Todos
 
