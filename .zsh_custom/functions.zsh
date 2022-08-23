@@ -29,3 +29,8 @@ dotfiles() {
       ;;
   esac
 }
+
+edot() {
+  local selected=$(dotfiles ls-files | fzf-tmux -p 50% --color=border:bright-blue --padding 1,5 --margin 1,0)
+  [ -n "${selected}" ] && code ${selected}
+}

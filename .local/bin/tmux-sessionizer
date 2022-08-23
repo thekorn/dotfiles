@@ -4,7 +4,7 @@ if [[ $# -eq 1 ]]; then
     selected=$1
 else
     items=`fd  --max-depth 3 --min-depth 1 --type d . ~/devel`
-    selected=`echo "$items" | fzf-tmux -p 50%`
+    selected=`echo "$items" | fzf-tmux -p 50% --color=border:bright-blue --padding 1,5 --margin 1,0`
 fi
 
 get_session_name() {
