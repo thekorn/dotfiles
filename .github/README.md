@@ -14,7 +14,7 @@ When it comes to look & feel, my main color schema across all environments and a
 ### all systems
 
  * tmux
- * fzf
+ * [fzf](https://github.com/junegunn/fzf/releases) (we need version >=0.32, so probably just fetch the compiled bin to `~/.local/bin`)
  * awscli
  * alacritty
  * silversearcher-ag
@@ -39,6 +39,7 @@ When it comes to look & feel, my main color schema across all environments and a
  * [mongosh](https://www.mongodb.com/docs/mongodb-shell/install/)
  * [deno](https://deno.land/manual/getting_started/installation)
  * [go](https://go.dev/doc/install)
+ * [ripgrep](https://github.com/BurntSushi/ripgrep#installation)
 
 ### Linux
 
