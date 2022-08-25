@@ -82,7 +82,7 @@ if [ "${IS_VSCODETERMINAL:-0}" = "1" ]
 then
   plugins=(git ssh-agent jira forgit z golang web-search)
 else
-  plugins=(git ssh-agent tmux jira forgit aws z golang zsh-fzf-history-search web-search)
+  plugins=(git ssh-agent tmux jira forgit aws z golang zsh-fzf-history-search web-search fzf)
 fi
 
 # tmux plugin - always start tmux when zshrc is loaded
@@ -142,3 +142,6 @@ export JIRA_DEFAULT_ACTION=dashboard
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

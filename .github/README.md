@@ -40,6 +40,8 @@ When it comes to look & feel, my main color schema across all environments and a
  * [deno](https://deno.land/manual/getting_started/installation)
  * [go](https://go.dev/doc/install)
  * [ripgrep](https://github.com/BurntSushi/ripgrep#installation)
+ * [fd](https://github.com/sharkdp/fd#installation)
+>>>>>>> Stashed changes
 
 ### Linux
 
