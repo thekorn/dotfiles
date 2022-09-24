@@ -102,7 +102,7 @@ hash -d "bfops"=$HOME/devel/gitlab.bfops.io
 # ssh-agent plugin
 zstyle :omz:plugins:ssh-agent lifetime 4h
 zstyle :omz:plugins:ssh-agent agent-forwarding on
-zstyle :omz:plugins:ssh-agent identities keys/id_rsa keys/id_rsa.bitbucket.burdastudios keys/OPS.tracdelight.pem keys/id_ed25519.gitlab.burdaforward
+zstyle :omz:plugins:ssh-agent identities keys/id_rsa keys/id_rsa.bitbucket.burdastudios keys/id_ed25519.gitlab.burdaforward
 
 source $ZSH/oh-my-zsh.sh
 
