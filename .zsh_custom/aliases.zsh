@@ -45,3 +45,6 @@ alias lg="lazygit"
 alias ff="firefox --new-tab"
 alias ffs="firefox --search"
 alias ffp="firefox --private-window"
+
+## android studio
+alias android-studio="open -a /Applications/Android\ Studio.app"
