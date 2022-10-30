@@ -41,6 +41,7 @@ When it comes to look & feel, my main color schema across all environments and a
  * [go](https://go.dev/doc/install)
  * [ripgrep](https://github.com/BurntSushi/ripgrep#installation)
  * [fd](https://github.com/sharkdp/fd#installation)
+ * [bottom](https://github.com/ClementTsang/bottom)
 
 ### Linux
 
