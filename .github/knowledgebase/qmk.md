@@ -34,12 +34,26 @@ and fix all issues
 
 ## build and install firmware
 
+### gmmk pro
+
 ```
   $ qmk compile -kb gmmk/pro/rev1/ansi -km andrebrait
 ``` 
 
-Then, install, and set the keyboard in boot mode (`FN +  \`)
+Then, install, and set the keyboard in boot mode (`FN + \`)
 
 ```
   $ qmk flash -kb gmmk/pro/rev1/ansi -km andrebrait
+```
+
+### gmmk2
+
+```
+  $ qmk compile -kb gmmk/gmmk2/p65/ansi -km thekorn
+``` 
+
+Then, install, and set the keyboard in boot mode (`FN + <space>`)
+
+```
+  $ qmk flash -kb gmmk/gmmk2/p65/ansi -km thekorn
 ```
