@@ -17,7 +17,7 @@ export PNPM_HOME="${HOME}/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=/usr/local/bin:$PATH
 export PATH=${HOME}/.local/bin/:${PATH}
 
 # fnm
@@ -41,3 +41,10 @@ export PATH=~/.gpkg/bin:$PATH
 # deno
 export DENO_INSTALL="/home/thekorn/.deno"
 export PATH=$DENO_INSTALL/bin:$PATH
+
+# fzf oh-my-zsh plugin
+export FZF_BASE=${HOME}/devel/github.com/junegunn/fzf
+export DISABLE_FZF_KEY_BINDINGS="true"
+
+# unique entries in $PATH
+typeset -U PATH
