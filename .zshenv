@@ -20,8 +20,8 @@ export PATH="$PNPM_HOME:$PATH"
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=${HOME}/.local/bin/:${PATH}
 
-# fnm
-eval "$(fnm env --fnm-dir ${HOME}/.fnm --use-on-cd --version-file-strategy recursive)"
+# dart
+export PATH="$PATH":"$HOME/.pub-cache/bin"
 
 # android
 export ANDROID_HOME=$HOME/Library/Android/sdk
