@@ -41,3 +41,6 @@ export PATH=~/.gpkg/bin:$PATH
 # deno
 export DENO_INSTALL="/home/thekorn/.deno"
 export PATH=$DENO_INSTALL/bin:$PATH
+
+#lazygit
+export LG_CONFIG_FILE="$HOME/.config/lazygit/config.yml"
