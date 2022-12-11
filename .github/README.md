@@ -58,11 +58,6 @@ When it comes to look & feel, my main color schema across all environments and a
  * enable WSL2 - running recent [ubuntu](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-11-with-gui-support#1-overview)
  * [windows terminal](https://github.com/microsoft/terminal)
 
-### (Optional) - for nvim
-
- * prettier (via gpkg)
- * stylua
-
 ## Fonts
 
  * [MesloLGS NF](https://github.com/romkatv/powerlevel10k#manual-font-installation)

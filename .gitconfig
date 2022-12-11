@@ -4,7 +4,7 @@
 [credential]
 	helper = store
 [core]
-	editor = nano
+	editor = hx
 	pager = delta
 
 [push]

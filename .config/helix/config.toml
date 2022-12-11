@@ -1,0 +1,19 @@
+theme = "nord"
+
+[editor]
+true-color = true
+cursorline = true
+color-modes = true
+
+[keys.normal]
+C-p = "file_picker"
+
+[editor.lsp]
+display-messages = true
+
+[editor.file-picker]
+hidden = false
+
+[editor.indent-guides]
+render = true
+
