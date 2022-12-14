@@ -15,7 +15,7 @@ $ git fetch -p origin
 
 then run
 ```sh
-$ git branch -r --merged | grep -v master | grep -v main | sed 's/origin\///' | xargs -n 1 git push --delete origin
+$ git branch -r --merged | grep -v master | grep -v main | grep -v develop | sed 's/origin\///' | xargs -n 1 git push --delete origin
 ```
 
 ## submodules

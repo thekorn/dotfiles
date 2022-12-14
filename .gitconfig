@@ -4,7 +4,7 @@
 [credential]
 	helper = store
 [core]
-	editor = hx
+	editor = hx -c ~/.config/helix/config.git.toml
 	pager = delta
 
 [push]
