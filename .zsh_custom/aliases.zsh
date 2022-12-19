@@ -48,3 +48,6 @@ alias ffp="firefox --private-window"
 
 ## android studio
 alias android-studio="open -a /Applications/Android\ Studio.app"
+
+## snowflake
+alias snowsql="/Applications/SnowSQL.app/Contents/MacOS/snowsql"
