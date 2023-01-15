@@ -34,3 +34,18 @@ edot() {
   local selected=$(dotfiles ls-files | fzf-tmux -p 50% --color=border:bright-blue --padding 1,5 --margin 1,0)
   [ -n "${selected}" ] && code ${selected}
 }
+
+update() {
+  echo "Updating dotfiles..."
+  dotfiles pull &> /dev/null
+  echo "Updating submodules..."
+  dotfiles submodule update --remote &> /dev/null
+  echo "update brew ..."
+  brew update &> /dev/null && brew upgrade &> /dev/null
+  echo "dump brew packages ..."
+  brew bundle dump -f --file .config/Brewfile &> /dev/null
+  echo "reload zsh config"
+  source ~/.zshrc &> /dev/null
+  echo "are there any changes?"
+  dotfiles st
+}
