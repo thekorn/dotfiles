@@ -50,6 +50,7 @@
 
 [delta]
     features = chameleon
+	side-by-side = false
 
 [delta "interactive"]
     keep-plus-minus-markers = true

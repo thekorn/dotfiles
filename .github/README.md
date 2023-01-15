@@ -22,7 +22,6 @@ When it comes to look & feel, my main color schema across all environments and a
  * jq
  * htop
  * pnpm (via gpkg)
- * [neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim#ubuntu) (via unstable ppa as 0.7+ is required)
  * [fnm](https://github.com/Schniz/fnm#using-cargo-linuxmacoswindows)
  * [gpkg](https://github.com/Schniz/gpkg#installation)
  * [lazygit](https://github.com/jesseduffield/lazygit/releases)
@@ -50,7 +49,9 @@ When it comes to look & feel, my main color schema across all environments and a
 ### mac
 
  * [homebrew](https://brew.sh/)
- * magnet - "tiling" window manager for osx
+ * raycast
+   * with jira, bitbucket, github and gitlab extensions installed
+   * to deactivate spotlight unbind the default keybindings in the "spotlight" section of the system preferences and bind raycast to Command+space 
  * Xcode
 
 ### Windows
