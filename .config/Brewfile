@@ -11,7 +11,6 @@ brew "awscli"
 brew "bat"
 brew "bottom"
 brew "python@3.9"
-brew "cocoapods", link: false
 brew "deno"
 brew "exa"
 brew "fd"
