@@ -43,7 +43,7 @@ update() {
   echo "update brew ..."
   brew update &> /dev/null && brew upgrade &> /dev/null
   echo "dump brew packages ..."
-  brew bundle dump -f --file .config/Brewfile &> /dev/null
+  brew bundle dump -f --file ~/.config/Brewfile &> /dev/null
   echo "reload zsh config"
   source ~/.zshrc &> /dev/null
   echo "are there any changes?"
