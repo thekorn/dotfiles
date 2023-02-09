@@ -44,3 +44,6 @@ export PATH=$DENO_INSTALL/bin:$PATH
 
 #lazygit
 export LG_CONFIG_FILE="$HOME/.config/lazygit/config.yml"
+
+#bunte monorepo
+export BROWSERSLIST_IGNORE_OLD_DATA=1
