@@ -4,8 +4,8 @@
 [credential]
 	helper = store
 [core]
-	editor = hx -c ~/.config/helix/config.git.toml
-	pager = delta
+  editor = nvim
+  pager = delta
 
 [push]
 	default = current
