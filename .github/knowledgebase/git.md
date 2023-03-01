@@ -3,7 +3,7 @@
 ## delete all merged git branches locally
 
 ```sh
-$ git branch -d $( git branch --merged | grep -v '^\*' | grep -v 'master' | grep -v 'main' )
+$ git branch -d $( git branch --merged | grep -v '^\*' | grep -v 'master' | grep -v 'main' | grep -v 'develop')
 ``` 
 
 ## delete all merged git branches on the remote
