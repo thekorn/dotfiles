@@ -80,9 +80,9 @@ ZSH_CUSTOM="${HOME}/.zsh_custom"
 # plugins=(git ssh-agent nvm tmux jira)
 if [ "${IS_VSCODETERMINAL:-0}" = "1" ]
 then
-  plugins=(git ssh-agent jira forgit z golang web-search flutter fnm)
+  plugins=(git jira forgit z golang web-search flutter fnm)
 else
-  plugins=(git ssh-agent tmux jira forgit aws z golang zsh-fzf-history-search web-search fzf flutter fnm)
+  plugins=(git tmux jira forgit aws z golang zsh-fzf-history-search web-search fzf flutter fnm)
 fi
 
 # tmux plugin - always start tmux when zshrc is loaded
@@ -100,9 +100,9 @@ hash -d "burdastudios"=$HOME/devel/bitbucket.org/burdastudios
 hash -d "bfops"=$HOME/devel/gitlab.bfops.io
 
 # ssh-agent plugin
-zstyle :omz:plugins:ssh-agent lifetime 4h
-zstyle :omz:plugins:ssh-agent agent-forwarding on
-zstyle :omz:plugins:ssh-agent identities keys/id_rsa keys/id_rsa.bitbucket.burdastudios keys/id_ed25519.gitlab.bfops.io
+#zstyle :omz:plugins:ssh-agent lifetime 4h
+#zstyle :omz:plugins:ssh-agent agent-forwarding on
+#zstyle :omz:plugins:ssh-agent identities keys/id_rsa keys/id_rsa.bitbucket.burdastudios keys/id_ed25519.gitlab.bfops.io
 
 source $ZSH/oh-my-zsh.sh
 

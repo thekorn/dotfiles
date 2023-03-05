@@ -48,3 +48,6 @@ export LG_CONFIG_FILE="$HOME/.config/lazygit/config.yml"
 
 #bunte monorepo
 export BROWSERSLIST_IGNORE_OLD_DATA=1
+
+# sops
+export SOPS_AGE_KEY_FILE="$HOME/.sops/keys.txt" 

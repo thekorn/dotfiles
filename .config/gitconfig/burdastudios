@@ -1,6 +1,7 @@
 [user]
 	name = Markus Korn
 	email = markus.korn@burda.com
+	signingkey = ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC2oosVKEYlP8Zl6+sPz2ldKD0NeDReWu6etrAECJKillYQBrkDCLjbDj3Zs7c3cVXwj6b43qZdNxIX55GrE1xyZ8YYvD+n+gnJg9/x6xy8tk0pq0r+HV9wXlsYgoULaHo2WgzyJY5SChzAsdaNkhiW3kHd81aggKpdtW7gvH7Y2sfwwFFqSPnwhsKH1UcHfG5ChZroG24Jh6srgLXX48Eu1ihJE2UY39+qNXfsjiZph+v/7R9WXeQAIxPr011zKwtfpZv+3mIvzgyuT4G5mIR+B9yzy3A+aCspjK1ti3qE+rIyxORrwPOji0zikLIxk1Joakb16y3IGWGZE/hzriS45u3Q/KUrqu/UuCe0RIiGHhxMNRbZ552l4k2o/Zumes+lJdsnz0igQM+9AtQKLqcrDKHkgarrKHZDFZeLqO2NfAhclvR+Cw24s4j6yEBZstxkOkAwhDdHvOaHC3ZCNFDkikrmBr90iz5Shu2qNLD3AhHv0HjSWBKO1Ea7DebopEs7jx2geGfuUqZ4W3T/CL0iIlW1JkoORM59RkNgfsz2m8bA3XQqmc+9IVZDbWbqWUsktRn9vC2PUHoKd9ibD4TAQuIgU5of+E/yK5/QbVmV8BMqBSMyJNhQw7CwGGx0nXpZCeVT7nriyYcmEBPnHlsfu+d1nlgknt3KAfbcG0PIAQ==
 
-[core]
-    sshCommand = ssh -i ~/.ssh/keys/id_rsa.bitbucket.burdastudios
+[commit]
+  gpgsign = true

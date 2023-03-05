@@ -1,6 +1,7 @@
 [user]
 	name = Markus Korn
 	email = markus.korn@burda.com
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGZqkKBX5iP806f8gmWu/8sxxRBkTweziDwQdUuHAI21
 
-[core]
-    sshCommand = ssh -i ~/.ssh/keys/id_ed25519.gitlab.burdaforward
+[commit]
+  gpgsign = true

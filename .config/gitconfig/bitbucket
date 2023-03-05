@@ -1,7 +1,3 @@
-
 [user]
 	name = Markus Korn
 	email = markus.korn@gmail.com
-
-[core]
-    sshCommand = ssh -i ~/.ssh/keys/id_rsa
